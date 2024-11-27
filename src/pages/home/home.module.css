@@ -1,0 +1,48 @@
+.home  {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.into {
+    max-width: 540px;
+    text-align: center;    
+}
+
+.home_img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.home_name {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.home_education {
+    margin-bottom: 2rem;
+}
+
+.icon_cv {
+    margin-left: 0.875rem;
+}
+
+.btn {
+    padding: 0.75rem 2rem;
+    line-height: 1;
+    border-radius: 1.875rem;
+    box-shadow: 0 0 1px rgb(0, 0, 0 / 0%);
+    border: 1px solid transparent;
+    color: #fff;
+    display: inline-block;
+    background-color: #000;
+  }
+  
+.btn:hover {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+    transition: .5s;
+}

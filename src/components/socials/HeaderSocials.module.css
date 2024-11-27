@@ -1,0 +1,15 @@
+.home_socials {
+    display: flex;
+    justify-content: center;
+    gap: 1.75rem;
+    margin: 1rem 0;
+}
+
+.home_social_link {
+    color: #000;
+    transition: .3s;
+}
+
+.home_social_link:hover {
+    color: hsl(43 , 100% ,68%);
+}
