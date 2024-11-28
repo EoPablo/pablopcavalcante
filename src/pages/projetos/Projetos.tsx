@@ -4,7 +4,7 @@ import Image from '../../assets/Monsters - Error 404.png';
 import LoginPage from '../../assets/login_page.png';
 import Years from '../../assets/years.png';
 import frase from '../../assets/Desktop - 3.png';
-import Jogo from '../../assets/jogo.png';
+import Jogo from '../../assets/jogo_velha.png';
 import Todo from '../../assets/todo.png';
 
 import { FaHtml5, FaCss3Alt, FaReact  } from "react-icons/fa";
