@@ -5,6 +5,7 @@ import LoginPage from '../../assets/login_page.png';
 import Years from '../../assets/years.png';
 import frase from '../../assets/Desktop - 3.png';
 import Jogo from '../../assets/jogo.png';
+import Todo from '../../assets/todo.png';
 
 import { FaHtml5, FaCss3Alt, FaReact  } from "react-icons/fa";
 import { BiLogoTypescript } from "react-icons/bi";
@@ -22,9 +23,9 @@ interface Projetos {
 const projetos: Projetos[] = [
   {
     id: 1,
-    image: Image,
-    title: 'Lâmpada',
-    description: [<FaHtml5 />, <FaCss3Alt />],
+    image: Todo,
+    title: 'Tecnologias Utilizadas',
+    description: [<FaHtml5 />, <FaCss3Alt />, <IoLogoJavascript/>],
     review: 'https://eopablo.github.io/pablocavalcante/projetos/Lampada_CSS/index.html',
   },
   {
@@ -45,7 +46,7 @@ const projetos: Projetos[] = [
     id: 4,
     image: Jogo,
     title: 'Jogo da Velha',
-    description: [<FaHtml5 />, <FaCss3Alt />, <IoLogoJavascript />],
+    description: [<FaHtml5 />, <FaCss3Alt />, <IoLogoJavascript/>],
     review: 'https://eopablo.github.io/pablocavalcante/projetos/Jogo%20da%20Velha/index.html',
   },
   {
