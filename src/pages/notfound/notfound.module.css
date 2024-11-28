@@ -35,3 +35,29 @@
     border: 1px solid #000;
     transition: .5s;
 }
+
+
+/* Responsividade */
+@media (max-width:485px) {
+    .container figure {
+        min-width: 200px;
+        min-height: 200px;
+    }
+    
+    .container p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px) {    
+    figure img{
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        
+    }
+
+    .container p {
+        font-size: 1.5rem;
+    }
+}
