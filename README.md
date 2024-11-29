@@ -1,6 +1,6 @@
 # Portfolio Pablo Cavalcante | React + TypeScript + Vite
 
-- Desenvolvi esse portfolio para demonstrar minha habilidades e colocar meus projetos que acho mais relevantes.
+- Desenvolvi esse portfolio para destacar habilidades e projetos de forma eficiente e visualmente atraente. Utilizando React.js como base para a criação de componentes reutilizáveis e interativos, Vite para um ambiente de desenvolvimento rápido e otimizado, e TypeScript para garantir tipagem estática e maior segurança no código, o portfólio oferece uma experiência fluida tanto para o desenvolvedor quanto para o usuário final. Ele incluiria seções como sobre mim, cursos, projetos destacados e contato, todas organizadas em uma interface responsiva e de fácil navegação.
 
 # Imagens | Responsividade
 ![home](https://github.com/user-attachments/assets/69f79eb6-70e3-47dd-b3e0-73bb95833098)
@@ -15,44 +15,24 @@
 ![Sobre](https://github.com/user-attachments/assets/66f3b602-1ebe-43d0-9ca4-f53e611b9982)
 ![Cursos](https://github.com/user-attachments/assets/e0a29ecb-f58f-4039-b067-c9cc0c18aa1f)
 
-## Expanding the ESLint configuration
+## Skills Utilizadas:
+- React Router Dom, para navegação entre as páginas;
+- Responsividade;
+- Formatação Condicional;
+- Interfaces, para definir a estrutura e os tipos de dados que os componentes esperam receber.
+- 
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Tecnologias utilizadas:
+![image](https://github.com/user-attachments/assets/41cba1c1-fdda-4b11-9094-aedd6308cb95)
+![image](https://github.com/user-attachments/assets/ea1d90d6-34b2-4d1e-bce6-1bd492cbe503)
+![biblioteca](https://github.com/user-attachments/assets/4c8f0c08-e039-4331-ac58-d4c28b7c1c4c)
+![typescript](https://github.com/user-attachments/assets/2eaab1f9-50dd-468a-89e0-e7ec591c9c7b)
 
-- Configure the top-level `parserOptions` property like this:
+## Projeto Online:
+- https://pablopcavalcante.vercel.app/
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Arquivo no Figma:
+https://www.figma.com/design/DrTt2Xn7gn6ZIMoZrH7txW/Porfolio---Pablo-Cavalcante?node-id=0-1&node-type=canvas&t=rhdnNocUFZk7xI33-0
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Autor:
+Pablo Cavalcante
