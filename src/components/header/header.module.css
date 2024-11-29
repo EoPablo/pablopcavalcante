@@ -57,6 +57,7 @@
 
     .header nav {
         display: none;
+        gap: 0.5rem;
     }
 
     .menuButton {
@@ -87,6 +88,11 @@
         border-radius: 0 0 8px 8px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         flex-direction: column;
+    }
+
+    .menu_nav {
+        width: 100%;
+        text-align: center;
     }
 }
 

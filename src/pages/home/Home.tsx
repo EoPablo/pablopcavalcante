@@ -1,5 +1,5 @@
 import styles from './home.module.css';
-import Me from '../../assets/test.jpg';
+import Me from '../../assets/pablo.jpg';
 import HeaderSocials from '../../components/socials/HeaderSocials';
 import { FaCloudDownloadAlt } from "react-icons/fa";
 
