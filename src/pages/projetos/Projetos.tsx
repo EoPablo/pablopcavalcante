@@ -2,10 +2,10 @@ import styles from './projetos.module.css';
 
 import Image from '../../assets/Monsters - Error 404.png';
 import LoginPage from '../../assets/login_page.png';
-import Years from '../../assets/years.png';
 import frase from '../../assets/Desktop - 3.png';
 import Jogo from '../../assets/jogo_velha.png';
 import Todo from '../../assets/todo.png';
+import Cripto from '../../assets/criptoapp.png'
 
 import { FaHtml5, FaCss3Alt, FaReact  } from "react-icons/fa";
 import { BiLogoTypescript } from "react-icons/bi";
@@ -31,35 +31,35 @@ const projetos: Projetos[] = [
   {
     id: 2,
     image: LoginPage,
-    title: 'Page Login',
+    title: 'Tecnologias Utilizadas',
     description: [<FaHtml5 />, <FaCss3Alt />],
     review: 'https://eopablo.github.io/page-login/?',
   },
   {
     id: 3,
     image: frase,
-    title: 'Gerador de Frases',
+    title: 'Tecnologias Utilizadas',
     description: [<FaHtml5 />, <FaCss3Alt />, <FaReact />, <BiLogoTypescript />],
     review: 'https://eopablo.github.io/gerador_frases/',
   },
   {
     id: 4,
     image: Jogo,
-    title: 'Jogo da Velha',
+    title: 'Tecnologias Utilizadas',
     description: [<FaHtml5 />, <FaCss3Alt />, <IoLogoJavascript/>],
     review: 'https://eopablo.github.io/pablocavalcante/projetos/Jogo%20da%20Velha/index.html',
   },
   {
     id: 5,
-    image: Years,
-    title: 'Calculadora Idade',
-    description: [<FaHtml5 />, <FaCss3Alt />],
-    review: 'https://calculadora-idade.netlify.app/',
+    image: Cripto,
+    title: 'Tecnologias Utilizadas',
+    description: [<FaHtml5 />, <FaCss3Alt />, <FaReact/>, <BiLogoTypescript/>],
+    review: 'https://criptoapp-sage.vercel.app/',
   },
   {
     id: 6,
     image: Image,
-    title: 'Links | Redes Sociais',
+    title: 'Tecnologias Utilizadas',
     description: [<FaHtml5 />, <FaCss3Alt />],
     review: 'https://fm-social-links-slt.netlify.app/',
   },
