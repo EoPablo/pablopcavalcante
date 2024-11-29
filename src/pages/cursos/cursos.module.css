@@ -127,10 +127,19 @@
 
   .card_title,
   .card_subtitle {
-    font-size: 1.125rem;
+    font-size: 1rem;
+  }
+
+  .card_description {
+    margin-bottom: 0.500rem;
   }
 
   .card_btn {
     margin-bottom: 1rem;
+  }
+
+  .btn {
+    padding: 0.75rem 1rem;
+    line-height: 0.5;
   }
 }
