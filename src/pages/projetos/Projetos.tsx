@@ -5,11 +5,12 @@ import frase from '../../assets/Desktop - 3.png';
 import Jogo from '../../assets/jogo_velha.png';
 import Todo from '../../assets/todo.png';
 import Cripto from '../../assets/criptoapp.png';
-import Card from '../../assets/card.png';
+import Devlinks from '../../assets/devlink-card.png';
 
 import { FaHtml5, FaCss3Alt, FaReact  } from "react-icons/fa";
 import { BiLogoTypescript } from "react-icons/bi";
-import { IoLogoJavascript } from "react-icons/io5";
+import { IoLogoJavascript, IoLogoFirebase  } from "react-icons/io5";
+import { RiTailwindCssFill } from "react-icons/ri";
 import { ReactNode } from 'react';
 
 interface Projetos {
@@ -58,10 +59,10 @@ const projetos: Projetos[] = [
   },
   {
     id: 6,
-    image: Card,
+    image: Devlinks,
     title: 'Tecnologias Utilizadas',
-    description: [<FaHtml5 />, <FaCss3Alt />],
-    review: 'https://fm-card-blog-preview.netlify.app/',
+    description: [<FaHtml5 />, <RiTailwindCssFill />, <FaReact />, <BiLogoTypescript />, <IoLogoFirebase /> ],
+    review: 'https://devlinks-wheat.vercel.app/',
   },
 ];
 
