@@ -14,7 +14,7 @@ const Home = () => {
 
         <HeaderSocials/>
 
-        <a href="/cv_pablopcavalcante.pdf" download="curriculo-pablo_cavalcante.pdf" className={styles.btn}>
+        <a href="/cvpablocavalcante.pdf" download="curriculo_pablopcavalcante.pdf" className={styles.btn}>
           Download CV
           <FaCloudDownloadAlt className={styles.icon_cv}/>
         </a>

@@ -13,7 +13,7 @@ const cursos: Curso[] = [
     id: 1,
     title: 'Ciências da Computação',
     institution: 'Anhembi Morumbi',
-    description: 'Atualmente estou no 6º Semestre e a faculdade me proporcionou a atuar no desenvolvimento de programas de informática, criar ferramentas de informática, manter redes de computadores e muito mais.',
+    description: 'Atualmente estou no 7º Semestre e a faculdade me proporcionou a atuar no desenvolvimento de programas de informática, criar ferramentas de informática, manter redes de computadores e muito mais.',
     // certificateLink: 'em_breve',
   },
   {

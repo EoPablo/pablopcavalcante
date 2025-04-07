@@ -6,6 +6,7 @@ import Jogo from '../../assets/jogo_velha.png';
 import Todo from '../../assets/todo.png';
 import Cripto from '../../assets/criptoapp.png';
 import Devlinks from '../../assets/devlink-card.png';
+import FestaMagica from '../../assets/fm.png';
 
 import { FaHtml5, FaCss3Alt, FaReact  } from "react-icons/fa";
 import { BiLogoTypescript } from "react-icons/bi";
@@ -63,6 +64,13 @@ const projetos: Projetos[] = [
     title: 'Tecnologias Utilizadas',
     description: [<FaHtml5 />, <RiTailwindCssFill />, <FaReact />, <BiLogoTypescript />, <IoLogoFirebase /> ],
     review: 'https://devlinks-wheat.vercel.app/',
+  },
+  {
+    id: 7,
+    image: FestaMagica,
+    title: 'Tecnologias Utilizadas',
+    description: [<FaHtml5 />, <FaCss3Alt />, <IoLogoJavascript/>, <FaReact /> ],
+    review: 'https://festamagicaeventos.com/',
   },
 ];
 
