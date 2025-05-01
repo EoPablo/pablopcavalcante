@@ -28,7 +28,7 @@ const projetos: Projetos[] = [
     image: Todo,
     title: 'Tecnologias Utilizadas',
     description: [<FaHtml5 />, <FaCss3Alt />, <IoLogoJavascript/>],
-    review: 'https://eopablo.github.io/pablocavalcante/projetos/Lampada_CSS/index.html',
+    review: 'https://eopablo.github.io/task-list-basic/',
   },
   {
     id: 2,
