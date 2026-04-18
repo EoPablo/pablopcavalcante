@@ -70,7 +70,7 @@ const projetos: Projetos[] = [
     image: FestaMagica,
     title: 'Tecnologias Utilizadas',
     description: [<FaHtml5 />, <FaCss3Alt />, <IoLogoJavascript/>, <FaReact /> ],
-    review: 'https://festamagicaeventos.com/',
+    review: 'https://festamagica.vercel.app/',
   },
 ];
 
